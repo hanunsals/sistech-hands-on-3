@@ -7,14 +7,14 @@ export default function Header() {
           <input
             type="text"
             placeholder="Search Course..."
-            className="p-2 rounded-md"
+            className="p-2 rounded-md bg-blue-700 text-white placeholder-gray-300"
           />
           <i className="fa-solid fa-search absolute top-1/2 right-2 transform -translate-y-1/2 text-blue-900"></i>
         </div>
-        <button className="p-2 rounded-full bg-blue-700">
+        <button className="p-2 rounded-full bg-blue-700 hover:bg-blue-800">
           <i className="fas fa-bell"></i>
         </button>
-        <button className="p-2 rounded-full bg-blue-700">
+        <button className="p-2 rounded-full bg-blue-700 hover:bg-blue-800">
           <i className="fas fa-user"></i>
         </button>
       </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '../atoms/Image';
 import { useState } from 'react';
 
 export default function Sidebar() {

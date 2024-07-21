@@ -19,8 +19,8 @@ export default function Card({ category, title, duration, price, imageUrl }) {
         <p className="text-gray-600 text-sm mb-1"><i className="fa-regular fa-clock"></i> {duration}</p>
         <p className="text-gray-600 text-sm mb-4"><i className="fa-solid fa-dollar-sign"></i> {price}</p>
         <div className="flex space-x-2">
-          <button className="bg-blue-700 text-white px-4 py-1 rounded">View Course</button>
-          <button className="bg-white border border-blue-700 text-blue-700 px-4 py-1 rounded">Buy Course</button>
+          <button className="bg-blue-700 text-white px-4 py-1 rounded hover:bg-blue-800">View Course</button>
+          <button className="bg-white border border-blue-700 text-blue-700 px-4 py-1 rounded hover:bg-gray-100">Buy Course</button>
         </div>
       </div>
     </article>
